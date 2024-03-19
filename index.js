@@ -18,7 +18,7 @@ function clock(){
     hourE1.innerText = h;
     minutesE1.innerText = m;
     secondsE1.innerText = s;
-    ampmE1,(innerText=ampm);
+    ampmE1.innerText= ampm;
    setTimeout(()=>{clock()},1000);
 }
 clock();
